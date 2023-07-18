@@ -1,10 +1,11 @@
 .projects {
     width: 100%;
-    height: auto;
+    min-height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
   }
   .projects .projectTitle {
     text-align: center;

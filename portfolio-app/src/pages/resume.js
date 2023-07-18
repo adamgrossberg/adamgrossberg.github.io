@@ -1,9 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import '../styles/Resume.css'
 
 function Resume() {
     return (
-        <div>
+        <div className='resume'>
             Resume
         </div>
     )

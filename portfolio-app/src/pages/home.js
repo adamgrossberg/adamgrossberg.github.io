@@ -13,25 +13,12 @@ function Home() {
                 </div>
                 <div className='prompt'>
                     <p>
-                        i'm computer science student with a passion for learning and creating.
+                        i'm a computer science student with a passion for learning, creating, and collaborating.
                     </p>
                     <a href="https://www.linkedin.com/in/adamgrossberg" target="blank"><LinkedInIcon /></a>
                     <a href="mailto:adamgrossberg@gatech.edu"><EmailIcon /></a>
                     <a href="https://github.com/adamgrossberg?tab=repositories" target="blank"><GithubIcon /></a>
                 </div>
-            </div>
-            <div className='skills'>
-                <h1>Skills</h1>
-                <ol className='list'>
-                    <li className='item'>
-                        <h2>Category</h2>
-                        <span>Skills</span>
-                    </li>
-                    <li className='item'>
-                        <h2>Category</h2>
-                        <span>Skills</span>
-                    </li>
-                </ol>
             </div>
         </div>
     )

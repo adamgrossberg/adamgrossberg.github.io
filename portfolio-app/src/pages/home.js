@@ -9,11 +9,11 @@ function Home() {
         <div className='home'>
             <div className='about'>
                 <div className='introduction'>
-                    <h2>Hi, my name is Adam.</h2>
+                    <h2>hi, my name is adam.</h2>
                 </div>
                 <div className='prompt'>
                     <p>
-                        A computer science student with a passion for learning and creating.
+                        i'm computer science student with a passion for learning and creating.
                     </p>
                     <a href="https://www.linkedin.com/in/adamgrossberg" target="blank"><LinkedInIcon /></a>
                     <a href="mailto:adamgrossberg@gatech.edu"><EmailIcon /></a>

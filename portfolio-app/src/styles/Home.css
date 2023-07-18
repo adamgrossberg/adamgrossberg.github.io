@@ -1,37 +1,36 @@
 .home {
   width: 100%;
   align-items: center;
-  font-family: "Arial", sans-serif;
+  font-family:'Courier New', Courier, monospace;
   color: #3e497a;
 }
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
-  color: #f0f0f0;
+  background-color: white;
+  color: black;
 }
 
 .about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
-  color: #e9d35b;
+  font-size: 7vw;
   height: 50px;
 }
 
 .about .prompt {
-  width: 40%;
-  font-size: 30px;
+  width: 50%;
+  font-size: 2.7vw;
 }
 .prompt svg {
-  font-size: 60px;
-  margin: 5px;
-  color: white;
+  font-size: 40px;
+  margin: 10px;
+  color: black;
+  opacity: 1;
 }
 
 .skills {
@@ -41,10 +40,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .skills h1 {
   color: #3e497a;
+  align-items: center;
 }
 
 .skills .list {
@@ -54,6 +55,15 @@
 
 .list span {
   font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about h2 {
+    font-size: 70px;
+  }
+  .about .prompt {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

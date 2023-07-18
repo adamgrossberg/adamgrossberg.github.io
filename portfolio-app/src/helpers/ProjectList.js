@@ -3,13 +3,15 @@ import proj2 from '../assets/proj2.jpg'
 
 export const ProjectList = [
     {
-        name: 'Project 1',
+        name: 'Ultimate Slackbot',
         image: proj1,
-        skills: "skills"
+        skills: "skills",
+        github: "https://github.com/adamgrossberg/ultimate-slackbot"
     },
     {
-        name: 'Project 2',
+        name: 'Simple Airline Management System',
         image: proj2,
-        skills: "skills"
+        skills: "skills",
+        github: "https://github.com/adamgrossberg/simple-airline-management-system"
     }
 ]

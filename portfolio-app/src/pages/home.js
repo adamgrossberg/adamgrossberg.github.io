@@ -13,9 +13,9 @@ function Home() {
                     <p>
                         A computer science student with a passion for learning and creating.
                     </p>
-                    <LinkedInIcon />
-                    <EmailIcon />
-                    <GithubIcon />
+                    <a href="https://www.linkedin.com/in/adamgrossberg" target="blank"><LinkedInIcon /></a>
+                    <a href="mailto:adamgrossberg@gatech.edu"><EmailIcon /></a>
+                    <a href="https://github.com/adamgrossberg?tab=repositories" target="blank"><GithubIcon /></a>
                 </div>
             </div>
             <div className='skills'>

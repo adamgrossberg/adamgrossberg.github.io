@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 .App {
   width: 100vw;
   overflow: hidden;
@@ -21,11 +25,4 @@ body {
 a:hover {
   opacity: 0.5;
   transition-duration: 500ms;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-::-webkit-scrollbar-track {
-  display:none;
 }

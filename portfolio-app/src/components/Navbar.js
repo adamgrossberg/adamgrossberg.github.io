@@ -12,11 +12,6 @@ function Navbar() {
         setExpandNavbar(false);
     }, [location])
 
-    /*
-    BUTTON CODE:
-    
-    */
-
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="links">

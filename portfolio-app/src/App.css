@@ -13,8 +13,6 @@ html, body {
   background-color: white;
   padding: 0;
   margin: 0;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;
 }
 
 body {
@@ -22,7 +20,15 @@ body {
   margin: 0;
 }
 
+a {
+  transition-duration: 500ms;
+}
+
 a:hover {
   opacity: 0.5;
-  transition-duration: 500ms;
+}
+
+::selection {
+  background-color: black;
+  color: white;
 }

@@ -7,7 +7,7 @@ import '../styles/Projects.css';
 function Projects() {
     return (
         <div className='projects'>
-            <Blob />
+            <Blob color1='coral' color2='indianred'/>
             <h1>my personal projects</h1>
             <div className='projectList'>
                 {ProjectList.map((project, index) => {

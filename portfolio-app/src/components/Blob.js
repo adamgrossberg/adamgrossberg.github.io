@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import '../styles/Blob.css'
 
-function Blob() {
+function Blob(color) {
     useEffect(() => {
         const blob = document.getElementById("blob");
         window.onpointermove = event => { 
@@ -12,9 +12,12 @@ function Blob() {
         }, { duration: 3000, fill: "forwards" });
         }
     })
+    const bgStyle = {
+        background: 'linear-gradient(to right, ' + color.color1 + ', ' + color.color2 + ')'
+    }
     return (
         <div>
-            <div id='blob'></div>
+            <div id='blob' style={bgStyle}></div>
             <div id='blur'></div>
         </div>
     )

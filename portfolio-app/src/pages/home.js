@@ -8,7 +8,7 @@ import '../styles/Home.css'
 function Home() {
     return (
         <div className='home'>
-            <Blob/>
+            <Blob color1='aquamarine' color2='mediumpurple' />
             <div className='about'>
                 <div className='introduction'>
                     <h2>hi, my name is adam.</h2>

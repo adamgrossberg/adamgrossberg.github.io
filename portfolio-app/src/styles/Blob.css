@@ -16,7 +16,6 @@
     height: 25vmax;
     aspect-ratio: 1;
     border-radius: 50%;
-    background: linear-gradient(to right, aquamarine, mediumpurple);
     animation: rotate 20s infinite;
     opacity: 0.8;
     overflow: hidden;

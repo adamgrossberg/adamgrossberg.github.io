@@ -12,12 +12,18 @@ function Navbar() {
         setExpandNavbar(false);
     }, [location])
 
+    const handleMouseEvent = (e) => {
+        setExpandNavbar(false);
+    };
+
     return (
-        <div className="navbar" id={expandNavbar ? "open" : "close"}>
-            <div className="links">
-                <Link to="/">home</Link>
-                <Link to="/projects">projects</Link>
-                <Link to="/resume">resume</Link>
+        <div className="navbar" id={expandNavbar ? "open" : "close"} onMouseLeave={handleMouseEvent}>
+            <div className="linksContainer">
+                <div className="links">
+                    <Link to="/">home</Link>
+                    <Link to="/projects">projects</Link>
+                    <Link to="/resume">resume</Link>
+                </div>
             </div>
             <div className="toggleButton" onClick={() => {
                 setExpandNavbar((prev) => !prev);

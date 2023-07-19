@@ -75,3 +75,8 @@
   z-index: -1;
   backdrop-filter: blur(12vmax);
 }
+
+.home ::selection {
+  background-color: black;
+  color:white;
+}

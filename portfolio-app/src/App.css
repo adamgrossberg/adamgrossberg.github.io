@@ -27,8 +27,3 @@ a {
 a:hover {
   opacity: 0.5;
 }
-
-::selection {
-  background-color: black;
-  color: white;
-}

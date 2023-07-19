@@ -42,7 +42,7 @@
 }
 
 #close .links {
-  left: -55%;
+  left: -100%;
   transition-duration: 700ms;
   transition-timing-function: cubic-bezier(.52,-0.14,.96,.53);
 }
@@ -79,8 +79,37 @@
   }
 }
 
+.navbar ::selection {
+  background-color: black;
+  color: white;
+}
+
+.menuText {
+  position:absolute;
+  top: 60px;
+  left: 0px;
+  opacity: 1;
+  transition-duration: 500ms;
+}
+
+#clicked {
+  opacity: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar a {
     font-size: 20px;
+  }
+  .links {
+    position:static;
+  }
+  .linksContainer {
+    left:auto;
+  }
+  .toggleButton {
+    display: none;
+  }
+  .menuText {
+    display:none;
   }
 }

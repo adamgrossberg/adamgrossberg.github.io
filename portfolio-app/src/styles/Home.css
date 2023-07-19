@@ -59,23 +59,6 @@
   }
 }
 
-#blob {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
-  z-index: -2;
-}
-
-#blur {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0px;
-  z-index: -1;
-  backdrop-filter: blur(12vmax);
-}
-
 .home ::selection {
   background-color: black;
   color:white;

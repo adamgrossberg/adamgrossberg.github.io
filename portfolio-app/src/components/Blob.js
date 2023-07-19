@@ -1,9 +1,22 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import '../styles/Blob.css'
 
 function Blob() {
+    useEffect(() => {
+        const blob = document.getElementById("blob");
+        window.onpointermove = event => { 
+        const { clientX, clientY } = event;
+        blob.animate({
+            left: `${clientX}px`,
+            top: `${clientY}px`
+        }, { duration: 3000, fill: "forwards" });
+        }
+    })
     return (
-        <div id='blob'></div>
+        <div>
+            <div id='blob'></div>
+            <div id='blur'></div>
+        </div>
     )
 }
 

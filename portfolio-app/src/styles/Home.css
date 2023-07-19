@@ -1,5 +1,5 @@
 .home {
-  width: 100%;
+  width: 100vw;
   align-items: center;
   font-family:'Courier New', Courier, monospace;
   color: black;
@@ -33,31 +33,6 @@
   opacity: 1;
 }
 
-.skills {
-  background: black;
-  font-size: 35px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: white;
-}
-
-.skills h1 {
-  align-items: center;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-}
-
 @media only screen and (min-width: 1000px) {
   .about h2 {
     font-size: 70px;
@@ -76,16 +51,5 @@
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
-  }
-
-  .skills {
-    text-align: center;
-  }
-  .list {
-    padding: 0;
-  }
-
-  .skills h2 {
-    font-size: 30px;
   }
 }

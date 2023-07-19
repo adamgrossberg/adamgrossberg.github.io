@@ -10,6 +10,11 @@ function Navbar() {
 
     useEffect(() => {
         setExpandNavbar(false);
+        if (location.pathname === '/') {
+            document.documentElement.style.overflow = 'hidden';
+        } else {
+            document.documentElement.style.overflow = 'auto';
+        }
     }, [location])
 
     const handleMouseEvent = (e) => {

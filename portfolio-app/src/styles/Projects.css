@@ -1,6 +1,6 @@
 .projects {
     width: 100%;
-    min-height: calc(100vh - 150px);
+    height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,8 @@
   .projectList {
     width: 70vw;
     height: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;

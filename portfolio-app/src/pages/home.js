@@ -1,12 +1,25 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email'
 import GithubIcon from '@mui/icons-material/GitHub'
+import Blob from '../components/Blob'
 import '../styles/Home.css'
 
 function Home() {
+    useEffect(() => {
+        const blob = document.getElementById("blob");
+        window.onpointermove = event => { 
+        const { clientX, clientY } = event;
+        blob.animate({
+            left: `${clientX}px`,
+            top: `${clientY}px`
+        }, { duration: 3000, fill: "forwards" });
+        }
+    })
     return (
         <div className='home'>
+            <Blob id='blob'/>
+            <div id='blur'></div>
             <div className='about'>
                 <div className='introduction'>
                     <h2>hi, my name is adam.</h2>

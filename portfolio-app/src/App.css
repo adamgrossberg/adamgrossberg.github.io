@@ -1,13 +1,16 @@
 .App {
   width: 100vw;
-  overflow:hidden;
-  height: auto;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   padding: 0;
   margin: 0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
 }
 
 body {
@@ -18,4 +21,11 @@ body {
 a:hover {
   opacity: 0.5;
   transition-duration: 500ms;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  display:none;
 }

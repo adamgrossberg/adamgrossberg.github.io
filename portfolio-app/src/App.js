@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <Router>
-      <Navbar />
-        <Routes>
+      <Navbar id='navbar' />
+        <Routes id='routes' >
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path='/projects/:id' element={<ProjectDisplay />} />

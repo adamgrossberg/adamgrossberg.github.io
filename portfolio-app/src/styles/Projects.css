@@ -28,6 +28,7 @@
   
   .projectItem {
     border-radius: 15px;
+    background-color: white;
     width: 300px;
     height: 300px;
     margin: 40px;

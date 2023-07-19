@@ -10,7 +10,7 @@ function Navbar() {
 
     useEffect(() => {
         setExpandNavbar(false);
-        if (location.pathname === '/') {
+        if (location.pathname === '/' || location.pathname === '/projects') {
             document.documentElement.style.overflow = 'hidden';
         } else {
             document.documentElement.style.overflow = 'auto';

@@ -40,3 +40,7 @@ a:hover {
   background-color: rgba(0,0,0,0.2);
   background-clip: content-box;
 }
+::selection {
+  background-color: black;
+  color: white;
+}

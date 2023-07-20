@@ -69,9 +69,13 @@
     z-index: 2;
   }
 
-  #description {
+  .description {
     opacity: 0;
-    transition-duration: 500ms;
+    font-size: 15px;
+  }
+
+  .projectItem p {
+    font-size: 15px;
   }
   
   .projectItem h1 {

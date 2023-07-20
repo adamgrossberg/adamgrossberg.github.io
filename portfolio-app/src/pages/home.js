@@ -4,7 +4,7 @@ import EmailIcon from '@mui/icons-material/Email'
 import GithubIcon from '@mui/icons-material/GitHub'
 import Blob from '../components/Blob'
 import '../styles/Home.css'
-//test
+
 function Home() {
     return (
         <div className='home'>

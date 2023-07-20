@@ -7,6 +7,12 @@
   font-family:'Courier New', Courier, monospace;
   color: black;
   overflow: hidden;
+  background-image: radial-gradient(
+      rgba(220, 220, 220, 0.4) 8%, 
+      transparent 8%
+  );
+  background-position: 0% 0%;
+  background-size: 5vmin 5vmin;
 }
 
 .about {

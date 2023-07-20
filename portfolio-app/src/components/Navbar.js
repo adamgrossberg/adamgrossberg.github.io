@@ -10,10 +10,11 @@ function Navbar() {
 
     useEffect(() => {
         setExpandNavbar(false);
-        if (location.pathname === '/' || location.pathname === '/projects') {
+        if (location.pathname === '/' || location.pathname === '/projects' || location.pathname === '/resume') {
             document.documentElement.style.overflow = 'hidden';
         } else {
             document.documentElement.style.overflow = 'auto';
+            document.documentElement.style.overflowX = 'hidden';
         }
     }, [location])
 

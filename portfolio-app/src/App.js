@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Router>
-      <Navbar id='navbar' />
+        <Navbar id='navbar' />
         <Routes id='routes' >
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

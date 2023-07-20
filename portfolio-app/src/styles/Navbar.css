@@ -98,11 +98,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar {
+    text-align: center;
+  }
   .navbar a {
-    font-size: 20px;
+    font-size: 5vw;
   }
   .links {
-    position:static;
+    position: static;
+    margin-left: 0;
   }
   .linksContainer {
     left:auto;

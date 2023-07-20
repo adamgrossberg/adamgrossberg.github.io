@@ -1,3 +1,27 @@
 .resume {
+    position: relative;
+    top: -75px;
     min-height: calc(100vh - 150px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.download {
+    font-weight: bold;
+    font-size:larger;
+}
+
+#resText {
+    text-decoration: dashed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

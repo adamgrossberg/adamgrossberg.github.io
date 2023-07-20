@@ -6,8 +6,9 @@ function Resume() {
     return (
         <div className='resume'>
             <div className='download'>
-                <a download='Adam T. Grossberg Resume.pdf' href={resume}>download my resume!</a>
+                <a download='Adam T. Grossberg Resume.pdf' href={resume}>download my <span id='resText'>resume</span>!</a>
             </div>
+            <p>(still working on this page)</p>
         </div>
     )
 }

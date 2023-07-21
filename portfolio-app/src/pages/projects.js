@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div className='projects'>
             <Blob color1='#ffbae5' color2='#ff8787'/>
-            <h1>my personal projects</h1>
+            <h1>My Personal Projects.</h1>
             <div className='projectList'>
                 {ProjectList.map((project, index) => {
                     return <ProjectItem id={index} name={project.name} description={project.description} />

@@ -8,7 +8,7 @@ function Resume() {
         <div className='resume'>
             <Blob color1='#ffff73' color2='#ffc526' />
             <div className='download'>
-                <a download='Adam T. Grossberg Resume.pdf' href={resume}>download my <span id='resText'>resume</span>!</a>
+                <a download='Adam T. Grossberg Resume.pdf' href={resume}>Download my <span id='resText'>résumé</span>!</a>
             </div>
             <p>(still working on this page)</p>
         </div>

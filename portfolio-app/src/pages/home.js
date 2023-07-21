@@ -11,11 +11,11 @@ function Home() {
             <Blob color1='aquamarine' color2='mediumpurple' />
             <div className='about'>
                 <div className='introduction'>
-                    <h2>hi, my name is adam.</h2>
+                    <h2>Hi, my name is Adam.</h2>
                 </div>
                 <div className='prompt'>
                     <p>
-                        i'm a computer science student with a passion for learning, creating, and collaborating.
+                        I'm a computer science student with a passion for learning, creating, and collaborating.
                     </p>
                     <a href="https://www.linkedin.com/in/adamgrossberg" target="blank"><LinkedInIcon /></a>
                     <a href="mailto:adamgrossberg@gatech.edu"><EmailIcon /></a>

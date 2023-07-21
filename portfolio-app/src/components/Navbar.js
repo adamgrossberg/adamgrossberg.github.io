@@ -27,9 +27,9 @@ function Navbar() {
             <div className='menuText' id={clickedMenu ? "clicked" : "notClicked"}>(the menu)</div>
             <div className="linksContainer">
                 <div className="links">
-                    <Link to="/">home</Link>
-                    <Link to="/projects">projects</Link>
-                    <Link to="/resume">resume</Link>
+                    <Link to="/">Home.</Link>
+                    <Link to="/projects">Projects.</Link>
+                    <Link to="/resume">Résumé.</Link>
                 </div>
             </div>
             <div className="toggleButton" onClick={() => {

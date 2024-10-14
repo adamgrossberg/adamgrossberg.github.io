@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'
 
-function ProjectItem({ id, description, name }) {
+function ProjectItem({ index, id, description, name }) {
     const navigate = useNavigate()
     const itemDescID = id + "description";
     return (

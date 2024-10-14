@@ -41,11 +41,21 @@
   width: 50%;
   font-size: 2.7vw;
 }
+
+.prompt .resume-prompt {
+  font-size: smaller;
+}
+
 .prompt svg {
   font-size: 40px;
   margin: 10px;
   color: black;
   opacity: 1;
+  transition-duration: 500ms;
+}
+
+.prompt svg:hover {
+  color: #006f32;
 }
 
 @media only screen and (min-width: 1000px) {

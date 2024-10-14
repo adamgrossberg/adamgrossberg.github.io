@@ -1,0 +1,25 @@
+.education {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.education h2 {
+    text-align: center;
+}
+.education .info {
+    margin:auto;
+    text-align: left;
+    width: 80%;
+}
+.education p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.education .degree {
+    font-style: italic;
+}
+.date {
+    font-weight: bold;
+}

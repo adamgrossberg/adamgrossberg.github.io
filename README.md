@@ -1,16 +1,34 @@
-# React + Vite
+# adam
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal website built with React and Vite, published at https://adamgrossberg.github.io/.
 
-Currently, two official plugins are available:
+## Local development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm ci
+npm run dev
+```
 
-## React Compiler
+## Checks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm run lint
+npm run build
+npm run preview
+```
 
-## Expanding the Oxlint configuration
+## Editing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- `src/Home.jsx`: homepage content, animation, and quote columns.
+- `src/Home.css`: homepage layout, title, navigation, and quote styling.
+- `src/App.css`: shared colors and page defaults.
+- `src/Navigation.jsx`: navigation labels and links. The non-home links are placeholders.
+- `src/home-text.txt`: one quote per line; each column repeats one quote.
+- `src/wave-edges.js`: wave depth, wavelength, speed, hover inset, text spacing, and mobile breakpoint.
+- `src/assets/images/`: app images.
+
+Waves and hover expansion are disabled below the mobile breakpoint. Reduced-motion preferences stop the animation.
+
+## Publishing
+
+Push changes to `main`. The GitHub Pages workflow in `.github/workflows/deploy.yml` installs dependencies, runs lint and build checks, and deploys `dist/`. Dependencies and generated build files are ignored by Git.
